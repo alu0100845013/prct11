@@ -1,0 +1,137 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación con Beamer]{Presentación sobre $pi$ usando BEAMER}
+\author[Iván]{Iván Hernandez Torres}
+\date[25-04-2014]{25 de abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc}
+  \hspace*{7.0cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Índice}
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{Primera Sección}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+\begin{definicion}
+El número PI equivale a la constante que relaciona el perímetro o longitud de una
+circunferencia con su diámetro. Se trata de un valor con un infinito número de decimales, cuya secuencia comienza de
+la siguiente manera:3,1415926535897932384626433832795028841
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Segunda Sección}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Segunda Sección}
+
+\begin{block}{Historia}
+ 
+El número pi es la constante que relaciona el perímetro de una circunferencia,
+con la longitud de su diámetro p = L/D. Este no es un número exacto es denominado número irracional
+(que tiene infinitas cifras decimales sin repetición de períodos). Ya en la antigüedad, se insinuó que todos los círculos
+conservaban una estrecha dependencia entre el contorno y su radio, pero tan sólo desde el siglo XVII la correlación se
+convirtió en un dígito y fue identificado con el nombre "Pi". A lo largo de la historia, a este ilustre guarismo se le han asignado diversas cantidades.
+Sin embargo, fue en Grecia donde la correspondencia entre el radio y la longitud de una circunferencia comenzó a consolidarse
+como uno de los más insignes enigmas a resolver. Un coetáneo de Sócrates, Antiphon, inscribió en el círculo un cuadrado,
+luego un octógono e ideó multiplicar la cantidad de lados hasta el momento en que el polígono obtenido se ajustara casi con
+la circunferencia.
+
+\end{block}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{Tercera Sección}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Tercera Sección}
+
+\begin{definicion}
+\[\int_{x=0}^{\infty} x\,\text{e}^{-x^2}\text{d}x=\frac{1}{2},\quad\text{e}^{i\pi}+1=0\]
+
+\[ \sqrt 2 = 1+\dfrac{1}{2+\dfrac{1}{2+\dfrac{1}{2+\dfrac{1}{\ddots}}}} \]
+
+\end{definicion}
+
+\begin{definicion}
+\[ S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \]
+
+\[ S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \]
+
+\[x=\frac{a_2 x^2 + a_1 x + a_0}{1+2z^3}, \quad x+y^{2n+2}=\sqrt{b^2-4ac}\]
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    
+    \beamertemplatebookbibitems
+    {\small $http://www.monografias.com/trabajos57/calculo-pi/calculo-pi.shtm$}
+    
+    \beamertemplatebookbibitems
+    {\small $ http://www.saberia.com/2010/03/que-es-el-numero-pi/$}   
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\end{document}
